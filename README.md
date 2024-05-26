@@ -52,6 +52,7 @@
 <h2>Usage</h2>
 <p>Run the project using your IDE. The ATM GUI will prompt you to enter your account number and PIN. Once authenticated, you can perform various transactions such as withdrawing cash, checking balance, making deposits, and transferring funds.</p>
 
+<hr>
 <p>After setting up java in local machine and database setup, you can directly download jar file(located at "OUTPUT" folder) of the code and run in the local machine!</p>
 </body>
 </html>
