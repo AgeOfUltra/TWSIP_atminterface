@@ -6,7 +6,7 @@ import org.apache.commons.dbcp2.BasicDataSource;
 public class DatabaseUtil {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/task2";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "<Enter Password>";
+    private static final String PASSWORD = "123456789";//uer password
 
     static DataSource dSource;
 

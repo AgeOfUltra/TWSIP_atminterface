@@ -299,6 +299,11 @@ public class HomeController {
                     } catch (SQLException e) {
                         throw new RuntimeException(e);
                     }
+                    try{
+                        transactionHistory("Received/Deposit",money,toCustomer.getId());
+                    } catch (SQLException e) {
+                        throw new RuntimeException(e);
+                    }
                     transferSts.setVisible(true);
                     transferSts.setStyle("-fx-text-fill:green");
                     transferSts.setText("Transaction SuccessFull");
