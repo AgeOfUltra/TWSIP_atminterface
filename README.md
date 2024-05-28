@@ -52,7 +52,7 @@
 <h2>Usage</h2>
 <p>Run the project using your IDE. The ATM GUI will prompt you to enter your account number and PIN. Once authenticated, you can perform various transactions such as withdrawing cash, checking balance, making deposits, and transferring funds.</p>
 <hr>
-<p>After setting up the project change the password at the <prev><code>DatabaseUtil.java</code></prev> and rebuild for updates jar file and run it!.</p> 
+<p>After setting up the project change the password at the <prev><code>DatabaseUtil.java</code></prev> and rebuild for updated jar file and run it!.</p> 
 <p>Recomendation to download javafx sdk version 21.0.1 (I have ) or latest</p>
 <p>Intellij Idea (Community/Ultimate)</p>
 
